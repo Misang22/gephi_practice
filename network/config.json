@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "조현석"
+  },
+  "text": {
+    "more": "마고전승 시각화(전승 지역, 신격)입니다.\n~~~~마고전승 시각화(전승 지역, 신격)입니다.마고전승 시각화(전승 지역, 신격)입니다.마고전승 시각화(전승 지역, 신격)입니다.",
+    "intro": "마고전승 시각화입니다.",
+    "title": "마고전승 시각화"
+  },
+  "legend": {
+    "edgeLabel": "관계",
+    "colorLabel": "소집단",
+    "nodeLabel": "화면, 지역, 신격"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
